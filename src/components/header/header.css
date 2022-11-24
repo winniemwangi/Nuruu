@@ -1,0 +1,73 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+  .title {
+    display: flex;
+}
+    h1 span{
+        margin-left: 40rem;
+      }
+
+ 
+  .search {
+    margin-left:100%;
+    margin-top:4%;
+    align-items: center;
+    gap: 1rem;
+    padding: 1%;
+    border-radius: 1rem;
+  }
+    svg {
+      color: black;
+    }
+    input {
+        background: lightgrey;
+        border: none;
+        padding: 3%;
+        width: 130%;
+        height: 5vh;
+        border-radius: 10px;
+        margin-top: -15%;
+        margin-left: 10px;
+        letter-spacing: 0.3rem;
+      }
+      input::placeholder {
+        margin-left: 100%;
+        color: black;
+      }
+      .image {
+        max-height: 10rem;
+        border-radius: 20rem;
+        margin-right: 30px;
+        width: 100px;
+        margin-top: 2.5%;
+      }
+      .image img {
+        height: 2.3rem;
+        width: 2.3rem;
+        object-fit: cover;
+        border-radius: 20rem;
+      }
+      .icon {
+        color: black;
+        margin-top: 3%;
+      }
+      .icon svg {
+        color: grey;
+        width: 25px;
+        height: 25px;
+      }
+      .notification {
+        color: black;
+        margin-top: 3%;
+      }
+      .notification svg {
+        color: grey;
+        width: 25px;
+        height: 25px;
+      }
+
+ 
